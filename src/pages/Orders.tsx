@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { Search, ChevronLeft, ChevronRight } from "lucide-react";
-import { fetchOrders, fetchOrderByReference, type Order, type OrderStatus } from "@/api/orders";
+import { fetchOrders, fetchOrderByReference, type OrderStatus } from "@/api/orders";
 import { Topbar } from "@/components/Topbar";
 import { OrderStatusBadge } from "@/components/OrderStatusBadge";
 import { Card, CardContent } from "@/components/ui/card";
